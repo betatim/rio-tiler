@@ -13,6 +13,8 @@ from rio_tiler import utils
 from rio_tiler.errors import TileOutsideBounds
 
 SENTINEL_BUCKET = 's3://sentinel-s2-l1c'
+SENTINEL_BUCKET = 'http://sentinel-s2-l1c.s3.amazonaws.com'
+#SENTINEL_BUCKET = 'http://sentinel-s2-l1c.s3-website.eu-central-1.amazonaws.com/'
 
 
 def bounds(sceneid):
